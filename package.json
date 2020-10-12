@@ -1,0 +1,27 @@
+{
+  "name": "@spectrum/sp-pagination",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/pagination.component.js",
+  "module": "dist/pagination.component.js",
+  "dependencies": {
+    "@spectrum/sp-base": "file:../base",
+    "@spectrum/sp-config": "file:../config",
+    "@spectrum/sp-button": "file:../button",
+    "@spectrum/sp-textfield": "file:../textfield",
+    "@spectrum/sp-icon": "file:../icon",
+    "lit-element": "^2.4.0",
+    "tslib": "^2.0.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "ISC"
+}
